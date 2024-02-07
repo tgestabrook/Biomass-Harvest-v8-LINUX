@@ -44,7 +44,7 @@ namespace Landis.Extension.BiomassHarvest
             {
                 IntPixel pixel = outputRaster.BufferPixel;
                 foreach (Site site in PlugIn.ModelCore.Landscape.AllSites) {
-                    pixel.MapCode.Value = (int) Math.Round(SiteVars.BiomassRemoved[site]);  
+                    pixel.MapCode.Value = (int) Math.Round(SiteVars.BiomassRemoved[site]);
                     outputRaster.WriteBufferPixel();
                 }
             }
