@@ -4,10 +4,10 @@ The Biomass Harvest Extension for LANDIS-II is derived from the Base Harvest ext
 
 # Release Notes
 
-- Latest release: Version 4.4 — January 2021
+- Latest release: Version 4.6 — April 2024
 
 - Full release details found in the User Guide and on GitHub.
-- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/docs/LANDIS-II%20Biomass%20Harvest%20v4.0%20User%20Guide.pdf).
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/docs/LANDIS-II%20Biomass%20Harvest%20v4.6%20User%20Guide.pdf).
 
 - Copyright: The LANDIS-II Foundation
 
@@ -20,7 +20,7 @@ You need:
 
 # Download
 
-- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/deploy/installer/LANDIS-II-V7%20Biomass%20Harvest%204.4-setup.exe). To install it on your computer, launch the installer.
+- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/deploy/installer/LANDIS-II-V7%20Biomass%20Harvest%204.6-setup.exe). To install it on your computer, launch the installer.
 
 # Example Files
 
