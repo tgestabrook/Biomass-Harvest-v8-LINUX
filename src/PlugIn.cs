@@ -281,9 +281,9 @@ namespace Landis.Extension.BiomassHarvest
         {
             string path = MapNames.ReplaceTemplateVars(nameTemplate, timestep);
             ModelCore.UI.WriteLine("   Writing prescription map to {0} ...", path);
-            using (IOutputRaster<ShortPixel> outputRaster = modelCore.CreateRaster<ShortPixel>(path, modelCore.Landscape.Dimensions))
+            using (IOutputRaster<Landis.Library.HarvestManagement.ShortPixel> outputRaster = modelCore.CreateRaster<Landis.Library.HarvestManagement.ShortPixel>(path, modelCore.Landscape.Dimensions))
             {
-                ShortPixel pixel = outputRaster.BufferPixel;
+                Landis.Library.HarvestManagement.ShortPixel pixel = outputRaster.BufferPixel;
                 foreach (Site site in modelCore.Landscape.AllSites)
                 {
                     if (site.IsActive) {
