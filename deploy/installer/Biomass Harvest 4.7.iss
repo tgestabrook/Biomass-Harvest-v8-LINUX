@@ -1,7 +1,7 @@
 ; LANDIS-II Extension infomation
-#define CoreRelease "LANDIS-II-V7"
+#define CoreRelease "LANDIS-II-V8"
 #define ExtensionName "Biomass Harvest"
-#define AppVersion "4.5"
+#define AppVersion "4.7"
 #define AppPublisher "LANDIS-II Foundation"
 #define AppURL "http://www.landis-ii.org/"
 
@@ -10,9 +10,9 @@
 ;#define BuildDir "..\..\src\bin\Debug"
 
 ; LANDIS-II installation directories
-#define ExtDir "C:\Program Files\LANDIS-II-v7\extensions"
-#define AppDir "C:\Program Files\LANDIS-II-v7"
-#define LandisPlugInDir "C:\Program Files\LANDIS-II-v7\plug-ins-installer-files"
+#define ExtDir "C:\Program Files\LANDIS-II-v8\extensions"
+#define AppDir "C:\Program Files\LANDIS-II-v8"
+#define LandisPlugInDir "C:\Program Files\LANDIS-II-v8\plug-ins-installer-files"
 #define ExtensionsCmd AppDir + "\commands\landis-ii-extensions.cmd"
 
 [Setup]
@@ -50,15 +50,12 @@ Source: {#BuildDir}\Landis.Extension.BiomassHarvest-v4.dll; DestDir: {#ExtDir}; 
 
 ; Requisite auxiliary libraries
 ; NB. These libraries are used by other extensions and thus are never uninstalled.
-Source: {#BuildDir}\Landis.Library.AgeOnlyCohorts-v3.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
-Source: {#BuildDir}\Landis.Library.BiomassCohorts-v4.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
 Source: {#BuildDir}\Landis.Library.BiomassHarvest-v3.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
-Source: {#BuildDir}\Landis.Library.Biomass-v2.1.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
-Source: {#BuildDir}\Landis.Library.Cohorts-v2.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
 Source: {#BuildDir}\Landis.Library.HarvestManagement-v4.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
 Source: {#BuildDir}\Landis.Library.Metadata-v2.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
 Source: {#BuildDir}\Landis.Library.SiteHarvest-v2.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
-Source: {#BuildDir}\Landis.Library.Succession-v8.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
+Source: {#BuildDir}\Landis.Library.Succession-v9.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
+Source: {#BuildDir}\Landis.Library.UniversalCohorts-v1.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall ignoreversion
 
 ; Complete example for testing the extension
 ; Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\{#ExtensionName}; Flags: ignoreversion
@@ -69,7 +66,7 @@ Source: {#BuildDir}\Landis.Library.Succession-v8.dll; DestDir: {#ExtDir}; Flags:
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "Biomass Harvest 4.5.txt"
+#define InfoTxt "Biomass Harvest 4.7.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 

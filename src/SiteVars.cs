@@ -4,8 +4,7 @@
 
 
 using Landis.SpatialModeling;
-using Landis.Library.BiomassCohorts;
-using Landis.Library.Biomass;
+using Landis.Library.UniversalCohorts;
 using Landis.Core;
 using System.Collections.Generic;
 
@@ -18,7 +17,7 @@ namespace Landis.Extension.BiomassHarvest
         private static ISiteVar<Pool> woodyDebris;
         private static ISiteVar<Pool> litter;
 
-        private static ISiteVar<Landis.Library.BiomassCohorts.ISiteCohorts> cohorts;
+        private static ISiteVar<ISiteCohorts> cohorts;
         private static ISiteVar<IDictionary<ISpecies, int>> biomassBySpecies;
 
         //---------------------------------------------------------------------
@@ -27,7 +26,7 @@ namespace Landis.Extension.BiomassHarvest
         {
             woodyDebris = PlugIn.ModelCore.GetSiteVar<Pool>("Succession.WoodyDebris");
             litter = PlugIn.ModelCore.GetSiteVar<Pool>("Succession.Litter");
-            cohorts = PlugIn.ModelCore.GetSiteVar<Landis.Library.BiomassCohorts.ISiteCohorts>("Succession.BiomassCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.UniversalCohorts");
 
             biomassRemoved = PlugIn.ModelCore.Landscape.NewSiteVar<double>();
             Landis.Library.BiomassHarvest.SiteVars.CohortsPartiallyDamaged = PlugIn.ModelCore.Landscape.NewSiteVar<int>();
@@ -50,10 +49,10 @@ namespace Landis.Extension.BiomassHarvest
         public static ushort GetMaxAge(ActiveSite site)
         {
             int maxAge = 0;
-            foreach (ISpeciesCohorts sppCo in (Landis.Library.BiomassCohorts.ISpeciesCohorts) SiteVars.Cohorts[site])
+            foreach (ISpeciesCohorts sppCo in (ISpeciesCohorts) SiteVars.Cohorts[site])
                 foreach (ICohort cohort in sppCo)
-                    if (cohort.Age > maxAge)
-                        maxAge = cohort.Age;
+                    if (cohort.Data.Age > maxAge)
+                        maxAge = cohort.Data.Age;
 
             return (ushort) maxAge;
 

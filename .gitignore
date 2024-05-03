@@ -158,3 +158,13 @@ $RECYCLE.BIN/
 # LANDIS-II
 /src/lib/*.dll
 /src/.vs
+testings/Core8-BiomassHarvest4.7/Biomass-succession-log.csv
+/testings/Core8-BiomassHarvest4.7/biomass-succession
+testings/Core8-BiomassHarvest4.7/Climate-annual-log.csv
+testings/Core8-BiomassHarvest4.7/Climate-spinup-input-log.csv
+testings/Core8-BiomassHarvest4.7/Climate-future-input-log.csv
+testings/Core8-BiomassHarvest4.7/harvest/biomass-harvest-event-log.csv
+/testings/Core8-BiomassHarvest4.7/harvest
+testings/Core8-BiomassHarvest4.7/Landis-climate-log.txt
+testings/Core8-BiomassHarvest4.7/Landis-log.txt
+/testings/Core8-BiomassHarvest4.7/Metadata
