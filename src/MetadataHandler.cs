@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-//using System.Data;
-using System.Text;
 using Landis.Library.Metadata;
-using Landis.Core;
-using Landis.Utilities;
 using System.IO;
-using Flel = Landis.Utilities;
+using Landis.Utilities;
 
 namespace Landis.Extension.BiomassHarvest
 {
@@ -111,10 +105,9 @@ namespace Landis.Extension.BiomassHarvest
             string dir = Path.GetDirectoryName(path);
             if (!string.IsNullOrEmpty(dir))
             {
-                Flel.Directory.EnsureExists(dir);
+                Utilities.Directory.EnsureExists(dir);
             }
 
-            //return new StreamWriter(path);
             return;
         }
     }

@@ -11,8 +11,6 @@ using Landis.Library.Metadata;
 using Landis.Core;
 
 using System.Collections.Generic;
-using System.IO;
-using System;
 
 using HarvestMgmtLib = Landis.Library.HarvestManagement;
 
@@ -71,10 +69,7 @@ namespace Landis.Extension.BiomassHarvest
         {
             modelCore = mCore;
 
-            // Add local event handler for cohorts death due to age-only
-            // disturbances.
-            // 2015-07-30 LCB: Disconnecting this event handler; Its tasks are performed by the SiteHarvestedEvent
-            Cohort.AgeOnlyDeathEvent += CohortKilledByAgeOnlyDisturbance;
+            //Cohort.AgeOnlyDeathEvent += CohortKilledByAgeOnlyDisturbance;
             //Cohort.PartialMortality += CohortKilledByAgeOnlyDisturbance;
 
             HarvestMgmtLib.Main.InitializeLib(modelCore);

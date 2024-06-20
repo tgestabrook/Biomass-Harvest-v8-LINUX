@@ -1,6 +1,6 @@
 // Contributors:
 //   James Domingo, Green Code LLC
-//   Robert M. Scheller
+//   Robert M. Scheller, Austen Ruzicka
  
 using Landis.SpatialModeling;
 using System;
