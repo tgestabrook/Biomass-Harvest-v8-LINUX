@@ -20,13 +20,13 @@ You need:
 
 # Download
 
-- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/deploy/installer/LANDIS-II-V8%20Biomass%20Harvest%206.0-setup.exe). To install it on your computer, launch the installer.
+- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/deploy/installer/LANDIS-II-V8%20Biomass%20Harvest%206.0-setup.exe). (Look for the download icon in the upper right corner.) Launch the installer.
 
 # Example Files
 
 LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
 
-Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/tree/master/testings/Core8-Harvest6).
+Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/tree/master/testings/Core8-Harvest6.0).
 
 # Citation
 
