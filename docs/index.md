@@ -24,8 +24,6 @@ You need:
 
 # Example Files
 
-LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
-
 Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/tree/master/testings/Core8-Harvest6.0).
 
 # Citation
