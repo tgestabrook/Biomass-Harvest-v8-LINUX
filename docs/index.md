@@ -7,7 +7,7 @@ The Biomass Harvest Extension for LANDIS-II is derived from the Base Harvest ext
 - Latest release: Version 6.0 — October 2024
 
 - Full release details found in the User Guide and on GitHub.
-- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/docs/LANDIS-II%200Harvest%20v6%20User%20Guide.pdf).
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/docs/LANDIS-II%20Harvest%20v6%20User%20Guide.pdf).
 
 - Copyright: The LANDIS-II Foundation
 
