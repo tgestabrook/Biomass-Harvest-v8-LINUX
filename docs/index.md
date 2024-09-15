@@ -1,14 +1,12 @@
-# What is the Biomass Harvest Extension?
+# What is the Harvest Extension?
 
-The Biomass Harvest Extension for LANDIS-II is derived from the Base Harvest extension and therefore shares many of the same features as Base Harvest. The largest difference is that Biomass Harvest supports partial thinning of cohorts.  Consult the user guide for Base Harvest for the most complete information.
+The Harvest Extension allows for complex, hierarchical management actions, including limitless possibilities for thinning, prescribed fire, etc. Consult the user guide for Base Harvest for the most complete information.
 
 # Release Notes
 
 - Latest release: Version 6.0 — October 2024
-
 - Full release details found in the User Guide and on GitHub.
 - [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/docs/LANDIS-II%20Harvest%20v6%20User%20Guide.pdf).
-
 - Copyright: The LANDIS-II Foundation
 
 # Requirements
@@ -18,7 +16,7 @@ You need:
 - The [LANDIS-II model v8.0](http://www.landis-ii.org/install) installed on your computer.
 - Example files (see below)
 
-# Download
+# Download and Install the Extension
 
 - The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest/blob/master/deploy/installer/LANDIS-II-V8%20Biomass%20Harvest%206.0-setup.exe). (Look for the download icon in the upper right corner.) Launch the installer.
 
